@@ -5,6 +5,6 @@ Then, when they exit, a customer's interface is opened, and they're able to prin
 
 Created a reader class to make reading input easier.  
 Created Planes class where everything else takes place. Inside of it, I have:  
-1. A HashMap where I keep the information of plane ID's and their capacities.
-2. An ArrayList of flights(Plane ID, Capacity, From-To).
-Whenever I needed to add a flight, I added it to a HashMap along with its capacity. Then, when I needed to do something else with it, I would turn that HashMap into an arraylist and print it.
+1. A HashMap where I keep the information of plane ID's and their capacities. Whenever I needed to add a flight, I added it to a HashMap along with its capacity. Then, when I needed to do something else with it, I would turn that HashMap into an arraylist and print it.
+2. An ArrayList of flights(Plane ID, Capacity, From-To) to be able to print flights.
+
